@@ -9,39 +9,39 @@ var LEVELS = [{
   tag: 'real_0',
   x: 0,
   y: 100,
-  link: 'https://vectorfeels.polytrope.repl.co/?G4UwTgzglg9gdgLgAQAYB06UCgQA8AOYIE08yA5AIzlYA2IotAKngC7IA+WSSehxpREio0eAYRi16AY1YwwCbkgC0SXMmw8AYlFwgAJgHEYAQ1qKeq9SoBMdBiHNK+RErCEilEqSFnyLPCpqGko6ekamToFB1sp2QA'
+  link: 'https://polytrope.com/vectorfeels/?G4UwTgzglg9gdgLgAQAYB06UCgQA8AOYIE08yA5AIzlYA2IotAKngC7IA+WSSehxpREio0eAYRi16AY1YwwCbkgC0SXMmw8AYlFwgAJgHEYAQ1qKeq9SoBMdBiHNK+RErCEilEqSFnyLPCpqGko6ekamToFB1sp2QA'
 }, {
   name: 'Developing Expertise',
   tag: 'real_1',
   x: -100,
   y: 100,
-  link: 'https://vectorfeels.polytrope.repl.co/?G4UwTgzglg9gdgLgAQAYB06UCgQA8AOYIE08yuWANiKJQCp4AuyAPlkknocaYkgOS5+7JAGEYlagGNGMMAhEBaJLmQBGJSuQBmEQDEouEABMA4jACGlBR2WrUm+wBYqNENZFciJWHwodxSRAZORsOJDt1EVstJF0OAyMzSw9wiNjsNMikFyA'
+  link: 'https://polytrope.com/vectorfeels/?G4UwTgzglg9gdgLgAQAYB06UCgQA8AOYIE08yuWANiKJQCp4AuyAPlkknocaYkgOS5+7JAGEYlagGNGMMAhEBaJLmQBGJSuQBmEQDEouEABMA4jACGlBR2WrUm+wBYqNENZFciJWHwodxSRAZORsOJDt1EVstJF0OAyMzSw9wiNjsNMikFyA'
 }, {
   name: 'Get Imaginative',
   tag: 'imaginary_0',
   x: 100,
   y: 100,
   ancestors: 'real_0',
-  link: 'https://vectorfeels.polytrope.repl.co/?G4UwTgzglg9gdgLgAQAYB06UCgQA8AOYIE08yA5ALQBMU5WANiKAwCp4AuyAPlkknkLFSiJFVr1+AYRgMmAYw4wwCPkkpJcybPwBiUXCAAmAcRgBDBqv4aAnsmqNmIK2sFESsUeLpqZckEVla351TW01fUNTC1dQsPJbcgcsIA'
+  link: 'https://polytrope.com/vectorfeels/?G4UwTgzglg9gdgLgAQAYB06UCgQA8AOYIE08yA5ALQBMU5WANiKAwCp4AuyAPlkknkLFSiJFVr1+AYRgMmAYw4wwCPkkpJcybPwBiUXCAAmAcRgBDBqv4aAnsmqNmIK2sFESsUeLpqZckEVla351TW01fUNTC1dQsPJbcgcsIA'
 }, {
   name: 'Understanding Why',
   tag: 'imaginary_1',
   x: 100,
   y: 0,
-  link: 'https://vectorfeels.polytrope.repl.co/?G4UwTgzglg9gdgLgAQAYB06UCgQA8AOYIE08yAngFRRYA2IotAKngC7IA+WSSehxpREgDkVKMO5IAwjFr0AxqxhgEkgLRJcybDx7lkagCzqk+pACZJAMSi4QAEwDiMAIa1VPDWbUBmST2V7cGQAQRMzAEZ-JEDgpDDPU21o2JUkACFwg0tdGLAgtMzE7yjc1OQpOgYQd0k+IhJYITFJGTkQRWUPXQ0tVGieUWEDY1yNIeQcpBs7J1dasZFyYaRfAbyC0Ojx5eRS3I24hJ6llZ0D8ozt0+z1y6KTidX9svy4yqA'
+  link: 'https://polytrope.com/vectorfeels/?G4UwTgzglg9gdgLgAQAYB06UCgQA8AOYIE08yAngFRRYA2IotAKngC7IA+WSSehxpREgDkVKMO5IAwjFr0AxqxhgEkgLRJcybDx7lkagCzqk+pACZJAMSi4QAEwDiMAIa1VPDWbUBmST2V7cGQAQRMzAEZ-JEDgpDDPU21o2JUkACFwg0tdGLAgtMzE7yjc1OQpOgYQd0k+IhJYITFJGTkQRWUPXQ0tVGieUWEDY1yNIeQcpBs7J1dasZFyYaRfAbyC0Ojx5eRS3I24hJ6llZ0D8ozt0+z1y6KTidX9svy4yqA'
 }, {
   name: 'Simply Complex',
   tag: 'complex_0',
   ancestors: ['real_0', 'imaginary_0'],
   x: 0,
   y: 200,
-  link: 'https://vectorfeels.polytrope.repl.co/?G4UwTgzglg9gdgLgAQAYB06UCgQA8AOYIE08yAjANRRYA2IotAKngC7IA+AtFkknoWKlESAORUoo3kgDCMWvQDGrGGATSuSXMmx8AYlFwgAJgHEYAQ1rq+m7UgBM0vgE9kXACx0GIa9IFEJLAiEtJyCiDKqjZ8SHY60gZGZpZ+sXFayE7pfKIuou5eQA',
+  link: 'https://polytrope.com/vectorfeels/?G4UwTgzglg9gdgLgAQAYB06UCgQA8AOYIE08yAjANRRYA2IotAKngC7IA+AtFkknoWKlESAORUoo3kgDCMWvQDGrGGATSuSXMmx8AYlFwgAJgHEYAQ1rq+m7UgBM0vgE9kXACx0GIa9IFEJLAiEtJyCiDKqjZ8SHY60gZGZpZ+sXFayE7pfKIuou5eQA',
 }, {
   name: 'It\'s a Sine',
   tag: 'complex_sin_0',
   x: -100,
   y: 100,
-  link: 'https://vectorfeels.polytrope.repl.co/?G4UwTgzglg9gdgLgAQAYB06UCgQA8AOYIE08yA5ALTRwAUAngFT5QCU5WANiKJwCp4ALsgA+lLEiR5CxUoiRUaDZmw6SAwjE7cAxoJhgEEpJSS5k2SZPrJKAJjQBWYwDEouEABMA4jACGnEaSpuZIAIzG1sgAzJFIBp7gyC7GIbYRVkg2SHZxCUlIAKKpZsgZVtnlkvmGSAAiJaGUVVkWeWCJteqNZXHZze2dyABCPSYt-bmZNcgAglw8IIHG0kQksPKKUHRMLOzGmtogegZBVmmocZLk9OS2Ds6Sbh4+-suZFy3XtzFX8R0FFIfUrjP43O45P4zIpxT5gn7hKEA2oNYFNL4KBGWTL-IZIbpo3o4zEQgbE6GjQmg4ng+5IvHzIA'
+  link: 'https://polytrope.com/vectorfeels/?G4UwTgzglg9gdgLgAQAYB06UCgQA8AOYIE08yA5ALTRwAUAngFT5QCU5WANiKJwCp4ALsgA+lLEiR5CxUoiRUaDZmw6SAwjE7cAxoJhgEEpJSS5k2SZPrJKAJjQBWYwDEouEABMA4jACGnEaSpuZIAIzG1sgAzJFIBp7gyC7GIbYRVkg2SHZxCUlIAKKpZsgZVtnlkvmGSAAiJaGUVVkWeWCJteqNZXHZze2dyABCPSYt-bmZNcgAglw8IIHG0kQksPKKUHRMLOzGmtogegZBVmmocZLk9OS2Ds6Sbh4+-suZFy3XtzFX8R0FFIfUrjP43O45P4zIpxT5gn7hKEA2oNYFNL4KBGWTL-IZIbpo3o4zEQgbE6GjQmg4ng+5IvHzIA'
 }, {
   ancestors: 'complex_0',
   name: 'Cross',
@@ -84,7 +84,7 @@ var LEVELS = [{
   tag: 'complex_parabola_0',
   x: 0,
   y: 100,
-  link: 'https://vectorfeels.polytrope.repl.co/?G4UwTgzglg9gdgLgAQAYB06UCgQA8AOYIE08yAjANS4BUUWANiKAwCp4AuyAPgLRZIkeQsVKIkAciq0oEgUgDCMBkwDGHGGATzeSXMl4BmeYICeybIIBiUXCAAmAcRgBDBtsG79SXgCYTSOZI5Gi+AKw6egbkAUH+nlGosci+oREJ3jGCZimR3vHZQSHhecjG2YEWjMwg7vLCRCSw4tJ08koqIOqaHtleBuUVkqYSVda2Ds5uvRkGBRUSIxRpAf0+WUOLo0jzPomWm0s7KxVrGwtHu2u7glvLJaeJgxfb2EA'
+  link: 'https://polytrope.com/vectorfeels/?G4UwTgzglg9gdgLgAQAYB06UCgQA8AOYIE08yAjANS4BUUWANiKAwCp4AuyAPgLRZIkeQsVKIkAciq0oEgUgDCMBkwDGHGGATzeSXMl4BmeYICeybIIBiUXCAAmAcRgBDBtsG79SXgCYTSOZI5Gi+AKw6egbkAUH+nlGosci+oREJ3jGCZimR3vHZQSHhecjG2YEWjMwg7vLCRCSw4tJ08koqIOqaHtleBuUVkqYSVda2Ds5uvRkGBRUSIxRpAf0+WUOLo0jzPomWm0s7KxVrGwtHu2u7glvLJaeJgxfb2EA'
 }, {
   name: 'Must Come Down',
   tag: 'complex_parabola_1',
