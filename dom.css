@@ -1,0 +1,65 @@
+body {
+  background: black;
+
+  margin: 0;
+  padding: 0;
+}
+
+.frame {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  border: none;
+  pointer-events: all;
+}
+
+.frame[hide=true] {
+  display: none;
+}
+
+.frameHolder{
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: transparent;
+  pointer-events: none;
+}
+
+.overlay {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: transparent;
+  pointer-events: none;
+}
+
+.overlay > * {
+  pointer-events: all;
+}
+
+.curtain {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: black;
+}
+
+.curtain[hide=true] {
+  display: none;
+}

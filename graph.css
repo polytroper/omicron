@@ -1,0 +1,63 @@
+.node {
+  cursor: pointer;
+}
+
+.node > text {
+  fill: #FFF;
+  font-size: 10px;
+
+  text-anchor: middle;
+  alignment-baseline: hanging;
+
+  user-select: none;
+}
+
+.node.faded {
+  cursor: default;
+}
+
+.node > circle {
+  stroke: #FFF;
+  stroke-width: 2px;
+  stroke-dasharray: 6;
+  transition: stroke-width 0.2s, stroke 1s, stroke-dasharray 1s;
+}
+
+.node.complete > circle {
+  stroke-dasharray: 6 0;
+}
+
+.node.faded > circle {
+  stroke: #222;
+}
+
+.node:hover:not(.faded) > circle {
+  stroke: #2AD;
+  stroke-width: 3px;
+}
+
+.edge {
+}
+
+defs > #arrow {
+
+  fill: #222;
+}
+
+.edge > line {
+  stroke: #222;
+  fill: #222;
+  stroke-width: 2px;
+}
+
+.edge.fade > line {
+  stroke: url(#edge-fade);
+}
+
+.edge-solid {
+  opacity: 1;
+}
+
+.edge-transparent {
+  opacity: 0;
+}

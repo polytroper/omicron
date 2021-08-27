@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Flojo</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto&family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <link href="elements.css" rel="stylesheet" type="text/css" />
+    <link href="dom.css" rel="stylesheet" type="text/css" />
+    <link href="graph.css" rel="stylesheet" type="text/css" />
+    <link href="overlay.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <svg>
+      <defs>
+        <linearGradient id="edge-fade">
+          <!-- <stop class="edge-solid" offset="0%"/>
+          <stop class="edge-transparent" offset="50%"/> -->
+          <stop stop-opacity="1" stop-color="white"/>
+          <stop stop-opacity="0.5" stop-color="white"/>
+        </linearGradient>
+      </defs>
+    </svg>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.0.0/d3.min.js"></script>
+
+    <script src="levels.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
